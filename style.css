@@ -1,0 +1,46 @@
+.ModaleContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(58, 58, 58, 0.5);
+}
+.CloseButton {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background-color: transparent;
+}
+.MyModale {
+  position: relative;
+  padding: 20px;
+  z-index: 10;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  background-color: rgb(30 41 59);
+  width: 40%;
+  height: 200px;
+  top: 40%;
+}
+.CloseIcon {
+  width: 40px;
+  height: 40px;
+}
+.TextOfModal {
+  font-weight: bold;
+  padding: 8px;
+  font-size: 24px;
+  text-align: center;
+}
+.LinkOfModal {
+  display: flex;
+  justify-content: center;
+  color: rgb(226 232 240);
+  font-weight: 400;
+  padding: 50px 0px;
+  font-size: 18px;
+}

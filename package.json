@@ -1,0 +1,23 @@
+{
+  "name": "@fmoitrier/modale-plugin",
+  "version": "0.0.2",
+  "description": "Modale plugin for OC Project",
+  "readme": "README.md",
+  "main": "index.jsx",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "modale"
+  ],
+  "author": "fmoitrier",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "react": "^18.3.1"
+  }
+}
