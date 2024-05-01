@@ -17,7 +17,11 @@ NPM:
 npm i @fmoitrier/modale-plugin
 ```
 
+This project uses [@fortawesome/react-fontawesome](https://www.npmjs.com/package/@fortawesome/react-fontawesome) dependencies
+
 ## Usage
+
+To install the dependencies, run the following command:
 
 ModalTitle : Le titre affiché dans le header de la fenêtre modale.
 onClose : Fonction callback de fermeture de la fenêtre modale.
