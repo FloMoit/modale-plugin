@@ -1,14 +1,26 @@
-# ModalePlugin
+# Modale-Plugin
 
-The ModalePlugin, is a customizable React component designed for easy integration into web applications, specifically for the HRnet site. It provides a modal dialog interface where you can display messages to the user and capture user interaction. The modal can be easily installed using npm or yarn. It requires three parameters: textModal for the notification message, linkModal for the link text, and linkTo for the page name. The modal's visibility is controlled by a state variable openModal, which can be toggled true or false.
+Modale-Plugin est un plugin React très simple permettant de créer un composant de fenêtre modale.
+Vous pouvez customiser le titre de la modale, le corps et la fonction callback de fermeture.
+
+## Contexte
+
+Ce projet est réalisé dans le cadre d'une formation OpenClassroom. Le but du projet est de remplacer une library jQuery par un plugin React.
 
 ## Installation
 
+Lien Github : https://github.com/FloMoit/modale-plugin
+
+NPM:
+
+```
+npm i @fmoitrier/modale-plugin
+```
+
 ## Usage
 
-textModal : The text to display as the title of the modal box.
-linkModal : The text to display as the link to follow.
-LinkTo : The URL where the link leads to.
+ModalTitle : Le titre affiché dans le header de la fenêtre modale.
+onClose : Fonction callback de fermeture de la fenêtre modale.
 
 ```javascript
 import { ModaleHRnet } from "modale-plugin";
@@ -19,10 +31,8 @@ function App() {
   return;
   {
     openModal && (
-      <ModalePlugin
-        onClose={setOpenModal}
-        textModal="User successfully created !">
-        <NavLink className="LinkOfModal" to={"UsersTable"}>
+      <ModalePlugin onClose={setOpenModal} textModal={"ModalTitle"}>
+        <NavLink className="LinkOfModal" to={"LinkTo"}>
           Click here to view the user list
         </NavLink>
       </ModalePlugin>
@@ -30,3 +40,5 @@ function App() {
   }
 }
 ```
+
+L'icone de fermeture (x) dans le coin superieur droit permet de fermer la fenêtre.
