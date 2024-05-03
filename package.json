@@ -1,6 +1,6 @@
 {
   "name": "@fmoitrier/modale-plugin",
-  "version": "0.0.4",
+  "version": "1.0.4",
   "description": "Modale plugin for OC Project",
   "readme": "README.md",
   "main": "index.jsx",
